@@ -1,0 +1,62 @@
+.info {
+  text-align: center;
+  padding: $space-standard $space-sub;
+
+  &__header {
+    font-size: calc(#{$text-emphasize + $text-standard}/ 2);
+    font-weight: 700;
+  }
+
+  &__txt {
+    margin: $space-small;
+    font-size: $text-mini;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  &__accordian {
+    &--txt {
+      text-align: left;
+
+      &--name {
+        font-size: $text-mini;
+        color: $color-main;
+      }
+
+      &--no {
+        font-size: $text-mini;
+        color: $color-alt;
+      }
+    }
+  }
+
+  &__credits {
+    margin-top: $space-margin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $space-supersmall;
+    font-size: $text-mini;
+
+    &--attribution {
+      color: $color-alert;
+      font-weight: 500;
+    }
+
+    &--developer {
+      color: $color-main;
+      font-size: $text-supersmall;
+    }
+  }
+}
+
+.accordion-button {
+  font-size: $text-mini;
+}
+
+.accordion-button:not(.collapsed) {
+  color: $color-tint;
+  background-color: $color-main;
+  outline: none;
+}

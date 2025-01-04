@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Decoration/logo free.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wedding E-Invite | Template 2</title>
+  </head>
+  <body>
+    <!-- Spinner -->
+    <div id="loading-spinner">
+      <div class="spinner"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar box" id="nav">
+      <div class="navbar__box">
+        <!-- <a class="navbar-brand navbar__link" href="#" data-location="home">
+          <ion-icon
+            name="extension-puzzle"
+            class="navbar__link--icon"
+          ></ion-icon>
+          <span class="navbar__link--txt">Home</span>
+        </a> -->
+        <a class="navbar-brand navbar__link" href="#" data-location="venue">
+          <ion-icon name="location" class="navbar__link--icon"></ion-icon>
+          <span class="navbar__link--txt">Venue</span>
+        </a>
+        <a class="navbar-brand navbar__link" href="#" data-location="rsvp">
+          <ion-icon
+            name="calendar-number"
+            class="navbar__link--icon"
+          ></ion-icon>
+          <span class="navbar__link--txt">Rsvp</span>
+        </a>
+
+        <a class="navbar-brand navbar__link" href="#" data-location="info">
+          <ion-icon name="person-add" class="navbar__link--icon"></ion-icon>
+          <span class="navbar__link--txt">Info</span>
+        </a>
+        <a class="navbar-brand navbar__link" href="#" data-location="gallery">
+          <ion-icon name="image" class="navbar__link--icon"></ion-icon>
+          <span class="navbar__link--txt">Gallery</span>
+        </a>
+      </div>
+    </nav>
+    <div class="box" id="box">
+      <!-- Home Page -->
+      <div class="home" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner home__box">
+            <div class="carousel-item active home__figure">
+              <img
+                src="images/Homepage/small pic 1.jpg"
+                class="d-block w-100"
+                alt="Couple Image"
+              />
+            </div>
+            <div class="carousel-item home__figure">
+              <img
+                src="images/Homepage/small pic 2.jpg"
+                class="d-block w-100"
+                alt="Couple Image"
+              />
+            </div>
+            <div class="carousel-item home__figure">
+              <img
+                src="images/Homepage/small pic 3.jpg"
+                class="d-block w-100"
+                alt="Couple Image"
+              />
+            </div>
+            <div class="carousel-item home__figure">
+              <img
+                src="images/Homepage/small pic 4.jpg"
+                class="d-block w-100"
+                alt="Couple Image"
+              />
+            </div>
+            <div class="carousel-item home__figure">
+              <img
+                src="images/Homepage/small pic 5.jpg"
+                class="d-block w-100"
+                alt="Couple Image"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon home__btn"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon home__btn"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="home__header">
+          <h2 class="home__header--main">Rahul & Stella</h2>
+          <p class="home__header--sub">
+            We're honored to have you join us in celebrating our wedding.
+          </p>
+        </div>
+      </div>
+
+      <!-- Venue -->
+      <div class="venue" id="venue">
+        <div class="venue__figure">
+          <img src="images/Decoration/venue.jpg" alt="Venue Hall" />
+        </div>
+
+        <ul class="venue__list">
+          <li class="venue__list--index">
+            <ion-icon
+              name="navigate"
+              class="venue__list--index--icon"
+            ></ion-icon>
+            <span class="venue__list--index--txt"
+              >Spring Gardens, Asgard Island, Malaysia.
+              <a
+                href="https://www.waze.com/live-map/directions?to=ll.3.050573%2C101.671193"
+                target="_blank"
+                class="invitation__box--row--link"
+              >
+                Waze Link &rightarrow;</a
+              >
+            </span>
+          </li>
+          <li class="venue__list--index">
+            <ion-icon
+              name="calendar"
+              class="venue__list--index--icon"
+            ></ion-icon>
+            <span class="venue__list--index--txt">05 Dec 2025 (Friday)</span>
+          </li>
+          <li class="venue__list--index">
+            <ion-icon name="time" class="venue__list--index--icon"></ion-icon>
+            <span class="venue__list--index--txt"
+              >Cocktail starts from <span class="highlight">6 pm</span> <br />
+              Reception starts at 7 pm</span
+            >
+          </li>
+          <li class="venue__list--index">
+            <ion-icon name="shirt" class="venue__list--index--icon"></ion-icon>
+            <span class="venue__list--index--txt"
+              >Theme: <span class="highlight">Mughal Elegance</span> <br />
+              Sherwani & Anarkali
+            </span>
+          </li>
+          <li class="venue__list--index">
+            <ion-icon name="wallet" class="venue__list--index--icon"></ion-icon>
+            <span class="venue__list--index--txt"
+              >Validate parking ticket at lobby before exiting</span
+            >
+          </li>
+        </ul>
+
+        <button class="venue__cta">RSVP</button>
+      </div>
+
+      <!-- RSVP -->
+      <div class="rsvp" id="rsvp">
+        <h1 class="rsvp__header">
+          <span class="rsvp__header--main">RSVP</span>
+          <span class="rsvp__header--sub">By 20 Oct 2025</span>
+        </h1>
+        <form action="POST" class="rsvp__form">
+          <div class="mb-3">
+            <label for="full-name" class="form-label form__label"
+              >Full Name</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-lg form__input"
+              id="full-name"
+              placeholder="Input your name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="contact-number" class="form-label form__label"
+              >Contact Number (without -)</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-lg form__input"
+              id="contact-number"
+              placeholder="Input your hp no"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email-address" class="form-label form__label"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              class="form-control form-control-lg form__input"
+              id="email-address"
+              placeholder="Input your email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="no-pax" class="form-label form__label"
+              >No. of Pax</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-lg form__input"
+              id="no-pax"
+              placeholder="Input the no. of pax"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="affiliation" class="form-label form__label"
+              >Affiliation</label
+            >
+            <select class="form-select form-select-lg mb-3" id="affiliation">
+              <option selected disabled required>
+                Please indicate your affiliation
+              </option>
+              <option value="Groom">Groom's Side</option>
+              <option value="Bride">Bride's Side</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+
+          <button type="button" class="rsvp__form--btn btn btn-primary btn-lg">
+            Submit
+          </button>
+        </form>
+        <div class="rsvp__submitted">
+          <p class="rsvp__submitted--txt">
+            Your RSVP has been submitted successfully. Thank you for your
+            response! We look forward to seeing you at the event.
+          </p>
+          <a
+            href="https://www.google.com/calendar/render?action=TEMPLATE&text=Rahul+%26+Stella&dates=20251205T180000Z/20251205T235900Z&details=Join+us+for+a+celebration!&location=&sf=true&output=xml"
+            target="_blank"
+            class="rsvp__submitted--calendar"
+          >
+            Add Date to Calendar
+          </a>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="info" id="info">
+        <h2 class="info__header">Need Help?</h2>
+        <p class="info__txt">
+          Got questions about the event? Whether you need more details or have
+          specific inquiries, feel free to reach out. You can reach us via
+          WhatsApp. And we'll be happy to assist you!
+        </p>
+        <div class="info__accordian">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Groom's Side
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body info__accordian--txt">
+                  <p>
+                    <span class="info__accordian--txt--name"
+                      >Groom's Brother</span
+                    >
+                    <a
+                      href="https://wa.me/+60163944457"
+                      target="_blank"
+                      class="info__accordian--txt--no"
+                    >
+                      Mr Riyhan
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Bride's Side
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body info__accordian--txt">
+                  <p>
+                    <span class="info__accordian--txt--name"
+                      >Bride's Father</span
+                    >
+                    <a
+                      href="https://wa.me/+60163944457"
+                      target="_blank"
+                      class="info__accordian--txt--no"
+                    >
+                      Mr Bourne
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info__credits">
+          <p class="info__credits--attribution">
+            All photos are taken from Unsplash <br />
+            (Free For Use)
+          </p>
+          <p class="info__credits--developer">Designed & Developed by Hari</p>
+        </div>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery" id="gallery">
+        <div class="gallery__box">
+          <div class="gallery__box--figure">
+            <img src="images/Gallery/pic 1.jpg" alt="Couple Pic" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
