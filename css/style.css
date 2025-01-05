@@ -82,7 +82,8 @@ body {
     padding: 0.6rem;
     text-decoration: none;
     width: 7.2rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05); }
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+    border-radius: 3px; }
     .navbar__link--icon {
       font-size: 2rem; }
 
